@@ -1,19 +1,19 @@
 bases:
 # global resources
-- ../../../base/namespace
-- ../../../dependencies/database
-- ../../../dependencies/storage
+- github.com/lyft/flyte/kustomize/base/namespace
+- github.com/lyft/flyte/kustomize/dependencies/database
+- github.com/lyft/flyte/kustomize/dependencies/storage
 
 # user plane / control plane resources
-- ../../../base/ingress
-- ../../../dependencies/contour_ingress_controller
+- github.com/lyft/flyte/kustomize/base/ingress
+- github.com/lyft/flyte/kustomize/dependencies/contour_ingress_controller
 - ../admindeployment
 - ../datacatalog
 - ../console
 
 # data plane resources
-- ../../../base/wf_crd
-- ../../../base/operators/spark
-- ../../../base/adminserviceaccount
+- github.com/lyft/flyte/kustomize/base/wf_crd
+- github.com/lyft/flyte/kustomize/base/operators/spark
+- github.com/lyft/flyte/kustomize/base/adminserviceaccount
 - ../propeller
 - ../redis

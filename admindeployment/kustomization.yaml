@@ -1,5 +1,5 @@
 bases:
-- ../../../base/admindeployment
+- github.com/lyft/flyte/kustomize/base/admindeployment
 
 namespace: flyte
 

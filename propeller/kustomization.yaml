@@ -1,5 +1,5 @@
 bases:
-- ../../../base/propeller
+- github.com/lyft/flyte/kustomize/base/propeller
 
 namespace: flyte
 

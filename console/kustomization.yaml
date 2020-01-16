@@ -1,5 +1,5 @@
 bases:
-- ../../../base/console
+- github.com/lyft/flyte/kustomize/base/console
 
 patches:
 - console.yaml

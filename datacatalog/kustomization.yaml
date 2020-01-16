@@ -1,5 +1,5 @@
 bases:
-- ../../../base/datacatalog
+- github.com/lyft/flyte/kustomize/base/datacatalog
 
 namespace: flyte
 

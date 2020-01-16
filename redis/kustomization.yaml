@@ -1,5 +1,5 @@
 bases:
-- ../../../dependencies/redis
+- github.com/lyft/flyte/kustomize/dependencies/redis
 
 patches:
 - storage.yaml
